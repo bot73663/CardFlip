@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A57CA7B2AD6E2D6009B1B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57CA7A2AD6E2D6009B1B7E /* AppDelegate.swift */; };
+		2A57CA7D2AD6E2D6009B1B7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57CA7C2AD6E2D6009B1B7E /* SceneDelegate.swift */; };
+		2A57CA7F2AD6E2D6009B1B7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57CA7E2AD6E2D6009B1B7E /* ViewController.swift */; };
+		2A57CA822AD6E2D6009B1B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A57CA802AD6E2D6009B1B7E /* Main.storyboard */; };
+		2A57CA842AD6E2D8009B1B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A57CA832AD6E2D8009B1B7E /* Assets.xcassets */; };
+		2A57CA872AD6E2D8009B1B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A57CA852AD6E2D8009B1B7E /* LaunchScreen.storyboard */; };
+		2A57CA922AD6E2D8009B1B7E /* CardFlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57CA912AD6E2D8009B1B7E /* CardFlipTests.swift */; };
+		2A57CA9C2AD6E2D8009B1B7E /* CardFlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57CA9B2AD6E2D8009B1B7E /* CardFlipUITests.swift */; };
+		2A57CA9E2AD6E2D8009B1B7E /* CardFlipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57CA9D2AD6E2D8009B1B7E /* CardFlipUITestsLaunchTests.swift */; };
+		2A57CAAB2AD81DD5009B1B7E /* PlaySound 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57CAAA2AD81DD5009B1B7E /* PlaySound 2.swift */; };
+		2A57CAAD2AD81E5B009B1B7E /* flipcard.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2A57CAAC2AD81E5B009B1B7E /* flipcard.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A57CA8E2AD6E2D8009B1B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A57CA6F2AD6E2D6009B1B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A57CA762AD6E2D6009B1B7E;
+			remoteInfo = CardFlip;
+		};
+		2A57CA982AD6E2D8009B1B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A57CA6F2AD6E2D6009B1B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A57CA762AD6E2D6009B1B7E;
+			remoteInfo = CardFlip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A57CA772AD6E2D6009B1B7E /* CardFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A57CA7A2AD6E2D6009B1B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A57CA7C2AD6E2D6009B1B7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A57CA7E2AD6E2D6009B1B7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A57CA812AD6E2D6009B1B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A57CA832AD6E2D8009B1B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A57CA862AD6E2D8009B1B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A57CA882AD6E2D8009B1B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A57CA8D2AD6E2D8009B1B7E /* CardFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A57CA912AD6E2D8009B1B7E /* CardFlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipTests.swift; sourceTree = "<group>"; };
+		2A57CA972AD6E2D8009B1B7E /* CardFlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardFlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A57CA9B2AD6E2D8009B1B7E /* CardFlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipUITests.swift; sourceTree = "<group>"; };
+		2A57CA9D2AD6E2D8009B1B7E /* CardFlipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A57CAAA2AD81DD5009B1B7E /* PlaySound 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySound 2.swift"; sourceTree = "<group>"; };
+		2A57CAAC2AD81E5B009B1B7E /* flipcard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flipcard.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A57CA742AD6E2D6009B1B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A57CA8A2AD6E2D8009B1B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A57CA942AD6E2D8009B1B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A57CA6E2AD6E2D6009B1B7E = {
+			isa = PBXGroup;
+			children = (
+				2A57CA792AD6E2D6009B1B7E /* CardFlip */,
+				2A57CA902AD6E2D8009B1B7E /* CardFlipTests */,
+				2A57CA9A2AD6E2D8009B1B7E /* CardFlipUITests */,
+				2A57CA782AD6E2D6009B1B7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A57CA782AD6E2D6009B1B7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A57CA772AD6E2D6009B1B7E /* CardFlip.app */,
+				2A57CA8D2AD6E2D8009B1B7E /* CardFlipTests.xctest */,
+				2A57CA972AD6E2D8009B1B7E /* CardFlipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A57CA792AD6E2D6009B1B7E /* CardFlip */ = {
+			isa = PBXGroup;
+			children = (
+				2A57CA7A2AD6E2D6009B1B7E /* AppDelegate.swift */,
+				2A57CA7C2AD6E2D6009B1B7E /* SceneDelegate.swift */,
+				2A57CA7E2AD6E2D6009B1B7E /* ViewController.swift */,
+				2A57CA802AD6E2D6009B1B7E /* Main.storyboard */,
+				2A57CAAA2AD81DD5009B1B7E /* PlaySound 2.swift */,
+				2A57CAAC2AD81E5B009B1B7E /* flipcard.wav */,
+				2A57CA832AD6E2D8009B1B7E /* Assets.xcassets */,
+				2A57CA852AD6E2D8009B1B7E /* LaunchScreen.storyboard */,
+				2A57CA882AD6E2D8009B1B7E /* Info.plist */,
+			);
+			path = CardFlip;
+			sourceTree = "<group>";
+		};
+		2A57CA902AD6E2D8009B1B7E /* CardFlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A57CA912AD6E2D8009B1B7E /* CardFlipTests.swift */,
+			);
+			path = CardFlipTests;
+			sourceTree = "<group>";
+		};
+		2A57CA9A2AD6E2D8009B1B7E /* CardFlipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A57CA9B2AD6E2D8009B1B7E /* CardFlipUITests.swift */,
+				2A57CA9D2AD6E2D8009B1B7E /* CardFlipUITestsLaunchTests.swift */,
+			);
+			path = CardFlipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A57CA762AD6E2D6009B1B7E /* CardFlip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A57CAA12AD6E2D8009B1B7E /* Build configuration list for PBXNativeTarget "CardFlip" */;
+			buildPhases = (
+				2A57CA732AD6E2D6009B1B7E /* Sources */,
+				2A57CA742AD6E2D6009B1B7E /* Frameworks */,
+				2A57CA752AD6E2D6009B1B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardFlip;
+			productName = CardFlip;
+			productReference = 2A57CA772AD6E2D6009B1B7E /* CardFlip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A57CA8C2AD6E2D8009B1B7E /* CardFlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A57CAA42AD6E2D8009B1B7E /* Build configuration list for PBXNativeTarget "CardFlipTests" */;
+			buildPhases = (
+				2A57CA892AD6E2D8009B1B7E /* Sources */,
+				2A57CA8A2AD6E2D8009B1B7E /* Frameworks */,
+				2A57CA8B2AD6E2D8009B1B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A57CA8F2AD6E2D8009B1B7E /* PBXTargetDependency */,
+			);
+			name = CardFlipTests;
+			productName = CardFlipTests;
+			productReference = 2A57CA8D2AD6E2D8009B1B7E /* CardFlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A57CA962AD6E2D8009B1B7E /* CardFlipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A57CAA72AD6E2D8009B1B7E /* Build configuration list for PBXNativeTarget "CardFlipUITests" */;
+			buildPhases = (
+				2A57CA932AD6E2D8009B1B7E /* Sources */,
+				2A57CA942AD6E2D8009B1B7E /* Frameworks */,
+				2A57CA952AD6E2D8009B1B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A57CA992AD6E2D8009B1B7E /* PBXTargetDependency */,
+			);
+			name = CardFlipUITests;
+			productName = CardFlipUITests;
+			productReference = 2A57CA972AD6E2D8009B1B7E /* CardFlipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A57CA6F2AD6E2D6009B1B7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2A57CA762AD6E2D6009B1B7E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2A57CA8C2AD6E2D8009B1B7E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2A57CA762AD6E2D6009B1B7E;
+					};
+					2A57CA962AD6E2D8009B1B7E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2A57CA762AD6E2D6009B1B7E;
+					};
+				};
+			};
+			buildConfigurationList = 2A57CA722AD6E2D6009B1B7E /* Build configuration list for PBXProject "CardFlip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A57CA6E2AD6E2D6009B1B7E;
+			productRefGroup = 2A57CA782AD6E2D6009B1B7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A57CA762AD6E2D6009B1B7E /* CardFlip */,
+				2A57CA8C2AD6E2D8009B1B7E /* CardFlipTests */,
+				2A57CA962AD6E2D8009B1B7E /* CardFlipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A57CA752AD6E2D6009B1B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A57CA872AD6E2D8009B1B7E /* LaunchScreen.storyboard in Resources */,
+				2A57CAAD2AD81E5B009B1B7E /* flipcard.wav in Resources */,
+				2A57CA842AD6E2D8009B1B7E /* Assets.xcassets in Resources */,
+				2A57CA822AD6E2D6009B1B7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A57CA8B2AD6E2D8009B1B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A57CA952AD6E2D8009B1B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A57CA732AD6E2D6009B1B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A57CA7F2AD6E2D6009B1B7E /* ViewController.swift in Sources */,
+				2A57CAAB2AD81DD5009B1B7E /* PlaySound 2.swift in Sources */,
+				2A57CA7B2AD6E2D6009B1B7E /* AppDelegate.swift in Sources */,
+				2A57CA7D2AD6E2D6009B1B7E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A57CA892AD6E2D8009B1B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A57CA922AD6E2D8009B1B7E /* CardFlipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A57CA932AD6E2D8009B1B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A57CA9E2AD6E2D8009B1B7E /* CardFlipUITestsLaunchTests.swift in Sources */,
+				2A57CA9C2AD6E2D8009B1B7E /* CardFlipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A57CA8F2AD6E2D8009B1B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A57CA762AD6E2D6009B1B7E /* CardFlip */;
+			targetProxy = 2A57CA8E2AD6E2D8009B1B7E /* PBXContainerItemProxy */;
+		};
+		2A57CA992AD6E2D8009B1B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A57CA762AD6E2D6009B1B7E /* CardFlip */;
+			targetProxy = 2A57CA982AD6E2D8009B1B7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A57CA802AD6E2D6009B1B7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A57CA812AD6E2D6009B1B7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A57CA852AD6E2D8009B1B7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A57CA862AD6E2D8009B1B7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A57CA9F2AD6E2D8009B1B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A57CAA02AD6E2D8009B1B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A57CAA22AD6E2D8009B1B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardFlip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.helloworld.CardFlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A57CAA32AD6E2D8009B1B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardFlip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.helloworld.CardFlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A57CAA52AD6E2D8009B1B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.helloworld.CardFlipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardFlip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardFlip";
+			};
+			name = Debug;
+		};
+		2A57CAA62AD6E2D8009B1B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.helloworld.CardFlipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardFlip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardFlip";
+			};
+			name = Release;
+		};
+		2A57CAA82AD6E2D8009B1B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.helloworld.CardFlipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardFlip;
+			};
+			name = Debug;
+		};
+		2A57CAA92AD6E2D8009B1B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.helloworld.CardFlipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardFlip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A57CA722AD6E2D6009B1B7E /* Build configuration list for PBXProject "CardFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A57CA9F2AD6E2D8009B1B7E /* Debug */,
+				2A57CAA02AD6E2D8009B1B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A57CAA12AD6E2D8009B1B7E /* Build configuration list for PBXNativeTarget "CardFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A57CAA22AD6E2D8009B1B7E /* Debug */,
+				2A57CAA32AD6E2D8009B1B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A57CAA42AD6E2D8009B1B7E /* Build configuration list for PBXNativeTarget "CardFlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A57CAA52AD6E2D8009B1B7E /* Debug */,
+				2A57CAA62AD6E2D8009B1B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A57CAA72AD6E2D8009B1B7E /* Build configuration list for PBXNativeTarget "CardFlipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A57CAA82AD6E2D8009B1B7E /* Debug */,
+				2A57CAA92AD6E2D8009B1B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A57CA6F2AD6E2D6009B1B7E /* Project object */;
+}

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CardFlip" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="X5j-P4-3gT">
+                                <rect key="frame" x="25" y="98" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOA-lf-u7A">
+                                <rect key="frame" x="18" y="201" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageswitch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lHA-gm-x0A"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="HBV-IE-R9g">
+                                <rect key="frame" x="166" y="98" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="eIe-Rp-SoV">
+                                <rect key="frame" x="307" y="98" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="2Lz-vA-r3a">
+                                <rect key="frame" x="307" y="273" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="KRe-Lb-VNR">
+                                <rect key="frame" x="167" y="273" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="uZX-uZ-3oz">
+                                <rect key="frame" x="25" y="273" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="qbx-tc-3eS">
+                                <rect key="frame" x="25" y="626" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="AjC-AK-y7E">
+                                <rect key="frame" x="307" y="444" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="kkJ-31-Ljg">
+                                <rect key="frame" x="167" y="444" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="R2C-uV-MWN">
+                                <rect key="frame" x="25" y="444" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="UyP-fF-7XB">
+                                <rect key="frame" x="166" y="626" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="psQ-Ot-ZNf">
+                                <rect key="frame" x="307" y="626" width="60" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IbA-Sj-ies">
+                                <rect key="frame" x="300" y="376" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageSwitch6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="idG-lP-KJF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqd-Jg-Ccj">
+                                <rect key="frame" x="160" y="375" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageSwitch5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="klM-0k-Uk3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bB3-x4-aAl">
+                                <rect key="frame" x="18" y="376" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageSwitch4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XcB-e6-wfZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQq-xP-zZk">
+                                <rect key="frame" x="302" y="198" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageSwitch3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MtR-9r-Fc8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBL-LH-HgH">
+                                <rect key="frame" x="159" y="200" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageSwitch2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yTt-AG-6Av"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfI-ey-aCJ">
+                                <rect key="frame" x="18" y="729" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageSwitch10:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o2H-0D-wP8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kzf-5J-ybv">
+                                <rect key="frame" x="18" y="547" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageSwitch7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uLK-qw-A4z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRh-ZE-xkI">
+                                <rect key="frame" x="160" y="547" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageSwitch8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qvk-vN-45d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cC-e5-ND3">
+                                <rect key="frame" x="300" y="547" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageSwitch9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xGd-Qz-kHn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cps-YU-m8W">
+                                <rect key="frame" x="300" y="729" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageSwitch12:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L24-Ab-RQl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Px-AV-yG1">
+                                <rect key="frame" x="159" y="729" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap">
+                                    <color key="baseBackgroundColor" red="0.88235294119999996" green="0.80784313730000001" blue="0.47843137250000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="imageSwitch11:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NSp-WK-Y5s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.31764705879999999" green="0.090196078430000007" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardView" destination="X5j-P4-3gT" id="Pwd-oa-epw"/>
+                        <outlet property="cardView10" destination="qbx-tc-3eS" id="GNY-dO-F8u"/>
+                        <outlet property="cardView11" destination="UyP-fF-7XB" id="nOT-4Q-igH"/>
+                        <outlet property="cardView12" destination="psQ-Ot-ZNf" id="Ind-3W-dBG"/>
+                        <outlet property="cardView2" destination="HBV-IE-R9g" id="JuJ-AJ-j8j"/>
+                        <outlet property="cardView3" destination="eIe-Rp-SoV" id="UyP-zS-naK"/>
+                        <outlet property="cardView4" destination="uZX-uZ-3oz" id="haC-RQ-Jcz"/>
+                        <outlet property="cardView5" destination="KRe-Lb-VNR" id="a3s-uY-QCH"/>
+                        <outlet property="cardView6" destination="2Lz-vA-r3a" id="gPR-q1-5AM"/>
+                        <outlet property="cardView7" destination="R2C-uV-MWN" id="A6P-DH-HBn"/>
+                        <outlet property="cardView8" destination="kkJ-31-Ljg" id="SXg-4e-geG"/>
+                        <outlet property="cardView9" destination="AjC-AK-y7E" id="NeJ-TK-cN5"/>
+                        <outletCollection property="tapCollection" destination="IOA-lf-u7A" collectionClass="NSMutableArray" id="uhc-tn-JxB"/>
+                        <outletCollection property="tapCollection" destination="FBL-LH-HgH" collectionClass="NSMutableArray" id="6yM-0h-t0t"/>
+                        <outletCollection property="tapCollection" destination="EQq-xP-zZk" collectionClass="NSMutableArray" id="gY0-ti-HLu"/>
+                        <outletCollection property="tapCollection" destination="bB3-x4-aAl" collectionClass="NSMutableArray" id="Xhl-tf-5UJ"/>
+                        <outletCollection property="tapCollection" destination="sqd-Jg-Ccj" collectionClass="NSMutableArray" id="KbQ-Pa-VU0"/>
+                        <outletCollection property="tapCollection" destination="IbA-Sj-ies" collectionClass="NSMutableArray" id="YfZ-hc-Zor"/>
+                        <outletCollection property="tapCollection" destination="Kzf-5J-ybv" collectionClass="NSMutableArray" id="Taz-Jo-MFv"/>
+                        <outletCollection property="tapCollection" destination="oRh-ZE-xkI" collectionClass="NSMutableArray" id="lo3-wH-zTa"/>
+                        <outletCollection property="tapCollection" destination="5cC-e5-ND3" collectionClass="NSMutableArray" id="XXb-qJ-iHg"/>
+                        <outletCollection property="tapCollection" destination="EfI-ey-aCJ" collectionClass="NSMutableArray" id="7OS-1U-r0J"/>
+                        <outletCollection property="tapCollection" destination="4Px-AV-yG1" collectionClass="NSMutableArray" id="pmp-by-ihm"/>
+                        <outletCollection property="tapCollection" destination="cps-YU-m8W" collectionClass="NSMutableArray" id="2uH-1X-VHN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.69465648854961" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cardBack" width="310" height="426"/>
+    </resources>
+</document>
